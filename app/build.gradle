@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    def room = "2.2.6"
+    def room = "2.3.0"
     implementation "androidx.room:room-runtime:$room"
     kapt "androidx.room:room-compiler:$room"
     implementation "androidx.room:room-ktx:$room"
